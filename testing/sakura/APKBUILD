@@ -8,7 +8,7 @@ url="https://launchpad.net/sakura"
 arch="all"
 license="GPL-2.0-only"
 makedepends="cmake vte3-dev pango-dev gtk+3.0-dev glib-dev gettext-dev"
-subpackages="$pkgname-doc"
+subpackages="$pkgname-doc $pkgname-lang"
 source="https://launchpad.net/sakura/trunk/$pkgver/+download/$pkgname-$pkgver.tar.bz2"
 options="!check" # no tests provided by upstream
 
